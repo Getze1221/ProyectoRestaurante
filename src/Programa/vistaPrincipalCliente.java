@@ -257,7 +257,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         Bienvenido.setText("RESTAURANTE ");
         Bienvenido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         panel.add(Bienvenido);
-        Bienvenido.setBounds(-30, 60, 720, 44);
+        Bienvenido.setBounds(40, 70, 530, 44);
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
@@ -267,7 +267,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
 
         BotonSeguir.setBackground(new java.awt.Color(0, 204, 204));
         BotonSeguir.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        BotonSeguir.setText("Avanzar");
+        BotonSeguir.setText("Ver menu");
         BotonSeguir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BotonSeguirActionPerformed(evt);

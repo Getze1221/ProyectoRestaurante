@@ -103,7 +103,7 @@ public class vistaTotalPagar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnImprFact);
-        btnImprFact.setBounds(200, 250, 130, 24);
+        btnImprFact.setBounds(200, 250, 150, 24);
 
         btnSalir.setBackground(new java.awt.Color(255, 102, 102));
         btnSalir.setText("Salir");
