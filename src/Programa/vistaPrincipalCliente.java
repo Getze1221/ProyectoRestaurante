@@ -302,7 +302,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(jButton1);
-        jButton1.setBounds(160, 270, 110, 23);
+        jButton1.setBounds(80, 270, 110, 23);
 
         txtNombre.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         txtNombre.addActionListener(new java.awt.event.ActionListener() {
