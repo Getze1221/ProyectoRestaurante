@@ -72,7 +72,7 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         MenuPrincipal.setFont(new java.awt.Font("Blackadder ITC", 0, 80)); // NOI18N
-        MenuPrincipal.setForeground(new java.awt.Color(153, 255, 102));
+        MenuPrincipal.setForeground(new java.awt.Color(0, 102, 255));
         MenuPrincipal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         MenuPrincipal.setText("Factura");
         getContentPane().add(MenuPrincipal);
@@ -114,9 +114,9 @@ public class vistaTotalPagar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnSalir);
-        btnSalir.setBounds(250, 370, 60, 24);
+        btnSalir.setBounds(240, 370, 60, 24);
 
-        btnGenerarFactura.setBackground(new java.awt.Color(153, 255, 153));
+        btnGenerarFactura.setBackground(new java.awt.Color(0, 204, 204));
         btnGenerarFactura.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnGenerarFactura.setText("GENERAR");
         btnGenerarFactura.addActionListener(new java.awt.event.ActionListener() {
@@ -138,10 +138,9 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         jTextValPagar.setBounds(360, 190, 120, 20);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(204, 204, 204));
         jLabel6.setText("Total a Pagar");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(380, 170, 80, 20);
+        jLabel6.setBounds(380, 170, 100, 20);
 
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("                                            ");
@@ -156,10 +155,9 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         jLabel11.setBounds(140, 100, 270, 20);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         jLabel1.setText("Valor de Comida");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(60, 170, 100, 20);
+        jLabel1.setBounds(60, 170, 110, 20);
 
         jTextValBebida.setBackground(new java.awt.Color(240, 240, 240));
         jTextValBebida.setBorder(null);
@@ -172,7 +170,7 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         jTextValBebida.setBounds(200, 190, 130, 20);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(204, 204, 204));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Valor de Bebida");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(220, 170, 100, 20);

@@ -251,8 +251,9 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         panel.setBackground(new java.awt.Color(204, 204, 255));
         panel.setLayout(null);
 
+        Bienvenido.setBackground(new java.awt.Color(255, 255, 255));
         Bienvenido.setFont(new java.awt.Font("Trebuchet MS", 1, 32)); // NOI18N
-        Bienvenido.setForeground(new java.awt.Color(255, 102, 102));
+        Bienvenido.setForeground(new java.awt.Color(0, 102, 204));
         Bienvenido.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Bienvenido.setText("RESTAURANTE ");
         Bienvenido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -277,7 +278,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         BotonSeguir.setBounds(360, 270, 100, 23);
 
         MenuPrincipal.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        MenuPrincipal.setForeground(new java.awt.Color(255, 102, 102));
+        MenuPrincipal.setForeground(new java.awt.Color(0, 102, 204));
         MenuPrincipal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         MenuPrincipal.setText("Registro del Cliente");
         panel.add(MenuPrincipal);
@@ -311,7 +312,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(txtNombre);
-        txtNombre.setBounds(240, 220, 227, 23);
+        txtNombre.setBounds(240, 230, 227, 23);
 
         txtIdentificacion.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         txtIdentificacion.addActionListener(new java.awt.event.ActionListener() {
@@ -336,7 +337,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Nombre Completo:");
         panel.add(jLabel2);
-        jLabel2.setBounds(80, 220, 160, 20);
+        jLabel2.setBounds(60, 230, 160, 20);
 
         jLabel6.setIcon(new javax.swing.ImageIcon("/home/unsis/Imágenes/123.jpg")); // NOI18N
         panel.add(jLabel6);
