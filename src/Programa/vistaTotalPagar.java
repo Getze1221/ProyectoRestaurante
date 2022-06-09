@@ -60,7 +60,6 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jTextValBebida = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
@@ -115,7 +114,7 @@ public class vistaTotalPagar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnSalir);
-        btnSalir.setBounds(230, 370, 60, 24);
+        btnSalir.setBounds(250, 370, 60, 24);
 
         btnGenerarFactura.setBackground(new java.awt.Color(153, 255, 153));
         btnGenerarFactura.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -156,12 +155,6 @@ public class vistaTotalPagar extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(140, 100, 270, 20);
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Da clic en acepto, obtén un número al azar y participa ya por un premio sorpresa!!");
-        getContentPane().add(jLabel7);
-        jLabel7.setBounds(50, 340, 460, 30);
-
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         jLabel1.setText("Valor de Comida");
@@ -186,9 +179,9 @@ public class vistaTotalPagar extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Estamos premiando a todos nuestros clientes por preferirnos. ");
+        jLabel3.setText("Estamos premiando ");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(70, 320, 450, 30);
+        jLabel3.setBounds(210, 330, 150, 30);
 
         jLabel5.setIcon(new javax.swing.ImageIcon("/home/unsis/Imágenes/123.jpg")); // NOI18N
         getContentPane().add(jLabel5);
@@ -257,7 +250,6 @@ public class vistaTotalPagar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField jTextTotales;
     private javax.swing.JTextField jTextValBebida;

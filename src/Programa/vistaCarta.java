@@ -38,11 +38,13 @@ final public class vistaCarta extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jComboBoxBebidas = new javax.swing.JComboBox<>();
         btnAceptar = new javax.swing.JButton();
+        BotonFactura = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jtrMensaje = new javax.swing.JTextPane();
-        BotonFactura = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -56,27 +58,27 @@ final public class vistaCarta extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBoxComidas);
-        jComboBoxComidas.setBounds(140, 160, 181, 33);
+        jComboBoxComidas.setBounds(40, 160, 181, 33);
 
         jLabel1.setFont(new java.awt.Font("Blackadder ITC", 0, 80)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 153, 51));
         jLabel1.setText("Carta");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(100, 20, 260, 78);
+        jLabel1.setBounds(10, 10, 260, 78);
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(204, 204, 204));
         jLabel2.setText("Comidas");
         jLabel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Deliciosos Platos Para Ti", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Sans", 0, 15), new java.awt.Color(255, 255, 255))); // NOI18N
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(150, 100, 150, 54);
+        jLabel2.setBounds(50, 100, 150, 54);
 
         jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(204, 204, 204));
         jLabel3.setText("Bebidas");
         jLabel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Saborea La Felicidad", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Sans", 0, 15), new java.awt.Color(255, 255, 255))); // NOI18N
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(160, 210, 140, 54);
+        jLabel3.setBounds(70, 210, 140, 54);
 
         jComboBoxBebidas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Seleccionar-", "Coca Cola", "Coca Cola Sin Azúcar", "Pepsi", "Jugo Del Valle", "Sprite", "Fanta", "Agua Cielo", "Fuze Tea", "Powerade", "Avena Quaker", "Limonada", "Jugo Natural De Mango", "Jugo Natural De Fresa", "Jugo Natural De Mora", "Jugo Natural De Lulo" }));
         jComboBoxBebidas.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -86,7 +88,7 @@ final public class vistaCarta extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBoxBebidas);
-        jComboBoxBebidas.setBounds(140, 270, 181, 33);
+        jComboBoxBebidas.setBounds(50, 270, 181, 33);
 
         btnAceptar.setBackground(new java.awt.Color(204, 204, 204));
         btnAceptar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -97,7 +99,21 @@ final public class vistaCarta extends javax.swing.JFrame {
             }
         });
         getContentPane().add(btnAceptar);
-        btnAceptar.setBounds(180, 320, 111, 20);
+        btnAceptar.setBounds(80, 320, 111, 20);
+
+        BotonFactura.setBackground(new java.awt.Color(153, 153, 153));
+        BotonFactura.setText("Ver Factura");
+        BotonFactura.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotonFacturaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(BotonFactura);
+        BotonFactura.setBounds(80, 410, 107, 20);
+
+        jLabel6.setText("jLabel6");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(350, 230, 46, 18);
 
         jScrollPane1.setBackground(new java.awt.Color(255, 0, 51));
 
@@ -108,23 +124,22 @@ final public class vistaCarta extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jtrMensaje);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(90, 350, 288, 40);
+        jScrollPane1.setBounds(0, 350, 288, 40);
 
-        BotonFactura.setBackground(new java.awt.Color(153, 153, 153));
-        BotonFactura.setText("Ver Factura");
-        BotonFactura.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setIcon(new javax.swing.ImageIcon("/home/unsis/Escritorio/gallo.png")); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BotonFacturaActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(BotonFactura);
-        BotonFactura.setBounds(180, 410, 107, 20);
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(1001, 216, 0, 0);
+        getContentPane().add(jButton1);
+        jButton1.setBounds(290, 70, 160, 180);
 
         jLabel5.setIcon(new javax.swing.ImageIcon("/home/unsis/Imágenes/123.jpg")); // NOI18N
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(0, 0, 728, 470);
+        jLabel5.setBounds(0, 0, 626, 470);
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(1001, 216, 0, 0);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -431,6 +446,10 @@ final public class vistaCarta extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_BotonFacturaActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -482,6 +501,7 @@ final public class vistaCarta extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotonFactura;
     private javax.swing.JButton btnAceptar;
+    private javax.swing.JButton jButton1;
     private javax.swing.JComboBox<String> jComboBoxBebidas;
     private javax.swing.JComboBox<String> jComboBoxComidas;
     private javax.swing.JLabel jLabel1;
@@ -489,6 +509,7 @@ final public class vistaCarta extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextPane jtrMensaje;
     // End of variables declaration//GEN-END:variables

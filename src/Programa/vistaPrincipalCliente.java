@@ -311,7 +311,7 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
             }
         });
         panel.add(txtNombre);
-        txtNombre.setBounds(240, 210, 227, 23);
+        txtNombre.setBounds(240, 220, 227, 23);
 
         txtIdentificacion.setFont(new java.awt.Font("SansSerif", 0, 14)); // NOI18N
         txtIdentificacion.addActionListener(new java.awt.event.ActionListener() {
@@ -327,17 +327,16 @@ public class vistaPrincipalCliente extends javax.swing.JFrame {
         panel.add(txtIdentificacion);
         txtIdentificacion.setBounds(240, 170, 230, 23);
 
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Numero de reservacion:");
         panel.add(jLabel1);
         jLabel1.setBounds(40, 170, 200, 20);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Nombre Completo:");
         panel.add(jLabel2);
-        jLabel2.setBounds(70, 210, 160, 20);
+        jLabel2.setBounds(80, 220, 160, 20);
 
         jLabel6.setIcon(new javax.swing.ImageIcon("/home/unsis/Imágenes/123.jpg")); // NOI18N
         panel.add(jLabel6);
