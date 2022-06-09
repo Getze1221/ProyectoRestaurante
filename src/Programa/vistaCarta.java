@@ -1,4 +1,10 @@
-
+/**
+* Autor: Getzemani Alejandro Gonzalez Cruz
+* Fecha de creación: 07/09/2022
+* fecha de actualización:09/09/2022
+* Descripcion: Vista de la carta o menu para el cliente
+* 
+*/
 package Programa;
 
 import Restaurante.Carta;

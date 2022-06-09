@@ -1,3 +1,11 @@
+/**
+* Autor: Getzemani Alejandro Gonzalez Cruz
+* Fecha de creación: 07/09/2022
+* fecha de actualización:09/09/2022
+* Descripcion:Variables de la clase carta
+* 
+*/
+
 package Restaurante;
 
 public class Carta {

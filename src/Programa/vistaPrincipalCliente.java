@@ -1,8 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* Autor: Getzemani Alejandro Gonzalez Cruz
+* Fecha de creación: 07/09/2022
+* fecha de actualización:09/09/2022
+* Descripcion: Vista de la pagina principal que vera el cliente
+* 
+*/
 package Programa;
 
 import Restaurante.Carta;

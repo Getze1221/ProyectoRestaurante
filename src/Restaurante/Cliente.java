@@ -1,3 +1,11 @@
+
+/**
+* Autor: Getzemani Alejandro Gonzalez Cruz
+* Fecha de creación: 02/09/2022
+* fecha de actualización:09/09/2022
+* Descripcion: Variables de cliente
+* 
+*/
 package Restaurante;
 
 public class Cliente {

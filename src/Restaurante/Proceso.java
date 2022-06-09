@@ -1,8 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* Autor: Getzemani Alejandro Gonzalez Cruz
+* Fecha de creación: 06/09/2022
+* fecha de actualización:09/09/2022
+* Descripcion: proceso para añadir cliente al archivo
+* 
+*/
 package Restaurante;
 
 import java.io.Serializable;
